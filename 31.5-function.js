@@ -24,11 +24,11 @@ console.log(y(5, 2));
 
 /**
  * Answer: The differecne are as follows:
- * Syntax
+ * Syntax [simplicity return in arrow function but explicity return in regular function]
  * Argument binding
- * this
- * No duplicate named parameters
- * function hoisting
+ * this [Regular function has own this, but arrow has no this]
+ * No duplicate named parameters [allowed in regular function but not allowed in arrow function though it is not good practice]
+ * function hoisting [Hositing allow in regular function but not allow in arrow function]
  * methods
  * Read more: https://medium.com/geekculture/regular-vs-arrow-function-1f8140fbcece
  */
